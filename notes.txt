@@ -1,0 +1,11 @@
+#don't grab the mode here because attributes is a dictionary with tons of info
+#hours varies per business
+#choose the mode for categories isn't smart because it's like choosing the most common business type for all missing business
+#the same goes using the mode here as all the missing values 
+#you're just saying the same business for 10000+ combos...
+
+
+# df_yelp['attributes'].fillna(df_yelp['attributes'].mode()[0], inplace=True)
+# df_yelp['hours'].fillna(df_yelp['hours'].mode()[0], inplace=True)
+# df_yelp['categories'].fillna(df_yelp['categories'].mode()[0], inplace=True)
+

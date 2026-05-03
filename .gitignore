@@ -1,0 +1,17 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Large data files (>100MB, exceeds GitHub limit)
+business.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
