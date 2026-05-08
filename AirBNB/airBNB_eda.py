@@ -15,6 +15,9 @@ import os
 
 warnings.filterwarnings('ignore')
 
+os.makedirs("plots", exist_ok=True)
+
+
 df_airBNB = pd.read_csv("Airbnb_Open_Data.csv")
 # print(df_airBNB.tail())
 
@@ -89,8 +92,6 @@ print(df_airBNB.isnull().sum())
 #Exploring Data Characteristics
 print("\n",df_airBNB["service fee"].skew())
 print(df_airBNB["service fee"].kurtosis())
-
-os.makedirs("plots", exist_ok=True)
 
 
 #Univariate Analysis 
